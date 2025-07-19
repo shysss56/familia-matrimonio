@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Malla: Familia y Matrimonio</title>
+  <style>
+    body { font-family: 'Segoe UI'; background: #fef9f9; padding: 30px; color: #333; }
+    .tema { background: #ffe4ec; padding: 15px; margin-bottom: 10px; border-radius: 12px; cursor: pointer; }
+    .subtema { display: none; padding: 15px; background: #fff8f0; border-left: 4px solid #ffb6c1; border-radius: 8px; margin-top: 10px; }
+    .pregunta { margin-top: 10px; background: #fdf6d5; padding: 10px; border-radius: 8px; }
+    button { background: #ffe0e0; border: none; padding: 8px 12px; margin: 5px; border-radius: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<h2>🌷 Malla Interactiva — La Familia y el Matrimonio</h2>
+
+<div class="tema" onclick="toggle(this)">
+  👨‍👩‍👧‍👦 ¿Qué es la familia?
+  <div class="subtema">
+    <p><strong>Concepto:</strong> La familia es la célula básica de la sociedad, basada en relaciones de parentesco por consanguinidad o afinidad.</p>
+    <p><strong>Ejemplo:</strong> Una familia conformada por una madre, su hijo y la abuela es considerada un núcleo familiar monoparental.</p>
+
+    <div class="pregunta">
+      <strong>❓ Pregunta DECO:</strong><br>
+      En una campaña municipal se busca fortalecer los vínculos familiares. ¿Cuál de estas medidas refuerza el rol social de la familia?<br>
+      <button onclick="check(this,true)">A) Creación de centros de orientación familiar</button>
+      <button onclick="check(this,false)">B) Aumento de impuestos a servicios públicos</button>
+      <button onclick="check(this,false)">C) Subvención a empresas transnacionales</button>
+      <button onclick="check(this,false)">D) Reducción del horario escolar</button>
+    </div>
+  </div>
+</div>
+
+<div class="tema" onclick="toggle(this)">
+  💍 Matrimonio y tipos de familia
+  <div class="subtema">
+    <p><strong>Matrimonio:</strong> Unión jurídica reconocida por el Estado entre dos personas con deberes y derechos mutuos.</p>
+    <p><strong>Tipos de familia:</strong> nuclear, extensa, monoparental, ensamblada, homoparental.</p>
+
+    <div class="pregunta">
+      <strong>❓ Pregunta DECO:</strong><br>
+      En una encuesta se encontró que una pareja del mismo sexo ha adoptado legalmente a un niño. ¿Qué tipo de familia representan?<br>
+      <button onclick="check(this,false)">A) Nuclear</button>
+      <button onclick="check(this,false)">B) Extensa</button>
+      <button onclick="check(this,false)">C) Ensamblada</button>
+      <button onclick="check(this,true)">D) Homoparental</button>
+      <button onclick="check(this,false)">E) Monoparental</button>
+    </div>
+  </div>
+</div>
+
+<div class="tema" onclick="toggle(this)">
+  ⚖️ Funciones de la familia
+  <div class="subtema">
+    <p><strong>Funciones:</strong> reproductiva, afecti
